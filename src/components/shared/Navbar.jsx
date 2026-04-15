@@ -4,7 +4,7 @@ import { Home, Clock, BarChart2 } from "lucide-react";
 
 const Navbar = () => {
     return (
-        <div className="shadow bg-gray-100">
+        <div className="shadow bg-gray-200">
             <div className="container mx-auto navbar px-6">
 
                 <div className="flex-1">
@@ -13,7 +13,6 @@ const Navbar = () => {
                         <span className="text-green-700">Keeper</span>
                     </h1>
                 </div>
-
                 <div className="flex-none">
                     <ul className="menu menu-horizontal items-center gap-4">
 
@@ -66,7 +65,7 @@ const Navbar = () => {
 
                 </div>
             </div>
-            
+
         </div>
     );
 };
