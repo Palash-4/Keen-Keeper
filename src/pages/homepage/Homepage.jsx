@@ -1,10 +1,15 @@
 import React from 'react';
+import Banner from '../../components/homepage/Banner';
+import NumberCard from '../../components/homepage/NumberCard';
+import FriendsCard from '../../components/homepage/FriendsCard';
 
 const Homepage = () => {
     return (
-        <div>
-            homepage
-        </div>
+        <>
+        <Banner></Banner>
+        <NumberCard></NumberCard>
+        <FriendsCard></FriendsCard>
+        </>
     );
 };
 
