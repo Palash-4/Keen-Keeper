@@ -24,6 +24,7 @@ const NumberCard = () => {
                 </div>
 
             </div>
+            
         </div>
     );
 };

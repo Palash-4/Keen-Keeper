@@ -6,6 +6,10 @@ import { createBrowserRouter } from 'react-router';
 import RootyLayout from './Layout/RootyLayout';
 import NotFoundPage from './NotFoundPage/NotFoundPage';
 import Homepage from './pages/homepage/Homepage';
+import FriendsDetails from './pages/homepage/friendsDetails/FriendsDetails';
+import TimeLine from './pages/timeLine/TimeLine';
+import { ToastContainer } from "react-toastify";
+
 
 const router = createBrowserRouter([
   {
@@ -17,9 +21,13 @@ const router = createBrowserRouter([
         path: "/",
         element: <Homepage></Homepage>,
       },
+       {
+        path: "/friend/:id",
+        element: <FriendsDetails></FriendsDetails>,
+      },
       {
         path: "/timeline",
-        element: <h2>Timeline Page</h2>,
+        element: <TimeLine></TimeLine>,
       },
       {
         path: "/stats",
@@ -31,6 +39,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <ToastContainer position="top-right" /> 
     <RouterProvider router={router} />
   </StrictMode>,
 )
