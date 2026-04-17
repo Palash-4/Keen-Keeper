@@ -177,13 +177,3 @@ npm install
 # Run the project
 npm run dev
 ```
-
----
-
-## 📌 Important Notes
-
-* Page reload does NOT break routing ✔
-* All features work without errors ✔
-* Minimum 8 meaningful commits recommended ✔
-
----
