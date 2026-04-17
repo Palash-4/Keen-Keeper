@@ -6,9 +6,10 @@ KeenKeeper is a modern web application that helps you maintain and track your re
 
 ## 🚀 Live Demo
 
-🔗 Live Site: *(Add your deployed link here)*
-🔗 GitHub Repo: *(Add your repo link here)*
+## 🚀 Live Demo
 
+🔗 Live Site: [Visit Site](https://keen-keeper-dusky-eight.vercel.app/)  
+🔗 GitHub Repo: [KeenKeeper Repository](https://github.com/Palash-4/Keen-Keeper)
 ---
 
 ## 📌 Project Overview
@@ -136,17 +137,27 @@ Users can track when they last contacted someone, set reminders, and log interac
 ## 📂 Project Structure
 
 ```
+## 📂 Project Structure
+
 src/
  ├── components/
+ │   ├── homepage/
+ │   └── shared/
+ │
  ├── pages/
  │   ├── homepage/
  │   ├── friendsDetails/
- │   ├── timeline/
- │   ├── dashboard/
+ │   ├── timeLine/
+ │   └── dashboard/
+ │
  ├── Layout/
- ├── data/
- ├── App.jsx
+ ├── NotFoundPage/
+ ├── index.css
  └── main.jsx
+
+public/
+ └── friends.json
+ 
 ```
 
 ---
@@ -169,16 +180,6 @@ npm run dev
 
 ---
 
-## 🚀 Deployment
-
-You can deploy this project on:
-
-* Vercel
-* Netlify
-* Cloudflare Pages
-
----
-
 ## 📌 Important Notes
 
 * Page reload does NOT break routing ✔
@@ -186,21 +187,3 @@ You can deploy this project on:
 * Minimum 8 meaningful commits recommended ✔
 
 ---
-
-## 👨‍💻 Author
-
-* Name: *(Your Name)*
-* GitHub: *(Your GitHub Profile)*
-
----
-
-## ⭐ Final Status
-
-✅ Fully functional
-✅ Responsive design
-✅ Meets all assignment requirements 
-✅ Ready for submission
-
----
-
-💡 *“Stay connected. Stay remembered.”*
