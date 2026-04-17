@@ -19,19 +19,19 @@ const Dashboard = () => {
     }, []);
 
     return (
-        <div className="bg-gray-100 min-h-screen p-6">
-            <div className="max-w-4xl mx-auto">
+        <div className="bg-gray-100 min-h-screen py-10">
+            <div className="max-w-5xl mx-auto px-4">
 
                 <h1 className="text-2xl font-bold mb-7">
                     Friendship Analytics
                 </h1>
 
-                <div className="bg-white p-6 rounded-xl shadow">
+                <div className="bg-white p-6 sm:p-8 rounded-xl shadow">
                     <h3 className="text-sm">
                         By Interaction Type
                     </h3>
 
-                    <div className="flex justify-center">
+                    <div className="flex justify-center items-center">
                         <PieChart width={400} height={400}>
                             <Pie
                                 data={data}

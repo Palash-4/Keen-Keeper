@@ -14,7 +14,7 @@ const Navbar = () => {
                     </h1>
                 </div>
                 <div className="flex-none">
-                    <ul className="menu menu-horizontal items-center gap-4">
+                    <ul className="flex flex-wrap justify-center lg:justify-end items-center gap-2 sm:gap-3 lg:gap-4">
 
                         <li>
                             <NavLink
