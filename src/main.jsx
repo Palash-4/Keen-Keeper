@@ -9,6 +9,7 @@ import Homepage from './pages/homepage/Homepage';
 import FriendsDetails from './pages/homepage/friendsDetails/FriendsDetails';
 import TimeLine from './pages/timeLine/TimeLine';
 import { ToastContainer } from "react-toastify";
+import Dashboard from './pages/dashboard/Dashboard';
 
 
 const router = createBrowserRouter([
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/stats",
-        element: <h2>Stats Page</h2>,
+        element: <Dashboard></Dashboard>,
       },
     ],
   },

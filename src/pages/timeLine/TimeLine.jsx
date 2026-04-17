@@ -48,12 +48,9 @@ const TimeLine = () => {
                                 key={item.id}
                                 className="bg-white p-4 rounded-lg shadow flex items-center gap-4 hover:shadow-md transition"
                             >
-                                {/* Icon */}
                                 <div className="text-gray-600">
                                     {getIcon(item.type)}
                                 </div>
-
-                                {/* Text */}
                                 <div>
                                     <p className="text-sm font-medium">
                                         {item.type} with {item.name}
