@@ -27,7 +27,7 @@ const Navbar = () => {
                                 }
                             >
                                 <Home size={18} />
-                                Home
+                                  Home
                             </NavLink>
                         </li>
 
